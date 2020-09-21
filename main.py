@@ -16,7 +16,7 @@ def notifyme(title,message):
     notification.notify(
         title = title,
         message = message,
-        app_icon = "icon.ico" ,
+        app_icon = "Corona_Notification/icon.ico" ,
         timeout = 10
     )
 
@@ -38,7 +38,7 @@ if __name__ == "__main__":
         span = i.find('span')
         data.append(span.string)
 
-    notifyme("CoronaVirus Update",stat())
+    notifyme("CoronaVirus Updates",stat())
 
 
 
