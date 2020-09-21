@@ -7,6 +7,7 @@ def stat():
     Deaths = data[1]
     Recovered = data[2]
     
+    #Return count of total covid cases, Deaths, Total Recovered cases in india
     return "Total cases : "+Total_CoronaVirus_cases+"\n" +"Total Deaths : "+Deaths +"\n"+"Total Recovered : "+Recovered
 
 
